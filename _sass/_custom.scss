@@ -1,0 +1,41 @@
+// Type smoothing for your website - https://gist.github.com/akolinski/19966c8f70a43ef45e7f06878a87a464
+body {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    background: #000;
+
+}
+
+header {
+    position: relative;
+    background-image: url('./../assets/images/facebook-cover-photo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 42vw;
+}
+
+p {
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    font-size: 18px;
+}
+
+.lead {
+    font-family: 'Archivo', sans-serif;
+    font-size: 22px;
+}
+
+.social-media-icons {
+    font-size: 2em;
+    @include media-breakpoint-up(md) {
+        font-size: 3em;
+    }
+    text-align: center;
+
+    a {
+        color: #FFF;
+        margin-right: 5px;
+    }
+}
