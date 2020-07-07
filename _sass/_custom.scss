@@ -28,7 +28,7 @@ p {
 }
 
 .social-media-icons {
-    font-size: 2.5em;
+    font-size: 2.7em;
     @include media-breakpoint-up(md) {
         font-size: 3em;
     }
@@ -36,6 +36,6 @@ p {
 
     a {
         color: #FFF;
-        margin-right: 10px;
+        margin-right: 12px;
     }
 }
