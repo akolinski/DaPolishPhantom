@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: DaPolishPhantom
-email: DaPolishPhantom@gmail.com
+title: PhantomBruv
+email: PhantomBruv@gmail.com
 author: Adam Kolinski
 description: > # this means to ignore newlines until "baseurl:"
-  I enjoy playing video games on my PlayStation with my friends and having a good laugh. I play FPS games like Call of Duty, looters like The Division and Destiny. Become part of the BOZO Squad Gaming Community to watch, play and make friends.
+  I create content playing video games. Come hang, make friends and have a good laugh.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://akolinski.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
