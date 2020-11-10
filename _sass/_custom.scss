@@ -9,11 +9,16 @@ body {
 
 header {
     position: relative;
-    background-image: url('./../assets/images/facebook-cover-photo.jpg');
+    background-image: url('./../assets/images/website-cover-photo.jpg'); 
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center top;
     background-size: cover;
-    height: 39vw;
+    height: 44vw;
+    @include media-breakpoint-up(md) {
+      background-position: center -70px;
+      background-size: initial;
+      height: 480px;
+    }
 }
 
 p {
