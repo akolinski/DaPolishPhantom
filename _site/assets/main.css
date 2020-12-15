@@ -1141,6 +1141,12 @@ header { position: relative; background-image: url("./../assets/images/website-c
 
 p { color: white; font-family: 'Archivo', sans-serif; font-size: 17px; }
 
+a { color: #F7EC15; text-decoration: underline; }
+
+a:hover, a:focus, a:active { color: #F7EC15; text-decoration: none; }
+
+a:hover { color: #F7EC15; text-decoration: none; }
+
 .lead { font-family: 'Archivo', sans-serif; font-size: 19px; }
 
 .social-media-icons { font-size: 2em; text-align: center; }
@@ -1175,5 +1181,7 @@ p { color: white; font-family: 'Archivo', sans-serif; font-size: 17px; }
   50% { top: -0.2em; }
   70% { top: -0.3em; }
   100% { top: 0; } }
+
+#twitch-embed iframe { width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

@@ -38,5 +38,20 @@
     <script defer src="https://use.fontawesome.com/releases/v5.13.1/js/solid.js" integrity="sha384-81RFXCmeESYg4G/uFGo6Tu/eeK3klw0oKItW3nPhi2BuryJcE4lkOkwWsW6jzoNz" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.13.1/js/brands.js" integrity="sha384-Ay9V1h0l5sywM7gJ5YvOc05QytfKqZAElRgqU5kPcIIUAUBqLOYwu9gnW6p5t/FN" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.13.1/js/fontawesome.js" integrity="sha384-4NJBLvz0eHSgtSVDb+VOLh4cxmVluIBqCaNw97NvJAo18r+qV9pze1g4YnhB/X6Y" crossorigin="anonymous"></script>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "PhantomBruv",
+        theme: "dark",
+        layout: "video-with-chat",
+        muted: false,
+        autoplay: true,
+        allowfullscreen: true,
+        // only needed if your site is also embedded on embed.example.com and othersite.example.com
+        parent: ["phantombruv.live"]
+      });
+    </script>
 </body>
 </html>
