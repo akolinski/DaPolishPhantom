@@ -7,17 +7,12 @@ body {
 
 }
 
-header {
-    position: relative;
-    background-image: url('./../assets/images/website-cover-photo.jpg');
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    height: 44vw;
+.display-1 {
+    font-family: 'Sedgwick Ave', cursive;
+    letter-spacing: 2px;
+    font-size: 10vw;
     @include media-breakpoint-up(md) {
-      background-position: center -70px;
-      background-size: initial;
-      height: 480px;
+        font-size: 6rem; 
     }
 }
 
